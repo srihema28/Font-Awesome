@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Full Profile Page</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+/* Full page */
+.main{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(to right, #0f2e94, #eee9ec);
+}
+
+/* Content container (bigger width) */
+.container{
+    width:80%;
+    max-width:1000px;
+    color:white;
+}
+
+/* Top section */
+.top{
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+
+/* Profile image */
+.profile-img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid rgb(2, 2, 2);
+}
+
+/* Name */
+.name{
+    font-size:40px;
+    font-weight:bold;
+}
+
+/* About */
+.about{
+    margin-top:30px;
+    font-size:18px;
+    line-height:1.7;
+    max-width:800px;
+}
+
+/* Social links */
+.social{
+    margin-top:30px;
+}
+
+.social a{
+    margin-right:20px;
+    font-size:30px;
+    color:white;
+    transition:0.3s;
+}
+
+.social a:hover{
+    color:black;
+}
+</style>
+</head>
+
+<body>
+
+<div class="main">
+
+    <div class="container">
+
+        <!-- Profile + Name -->
+        <div class="top">
+            <img src="hema.jpg" class="profile-img">
+            <div class="name">Hema Sri A</div>
+        </div>
+
+        <!-- About -->
+        <div class="about">
+            Hello! I'm a passionate student who loves coding, creativity, and design. 
+            I enjoy building modern websites and exploring new technologies. 
+            I'm always excited to learn and grow in the tech field.
+        </div>
+
+        <!-- Social Links -->
+        <div class="social">
+            <a href="https://www.linkedin.com/in/hemasri-a-80b882372/"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/srihema28"><i class="fab fa-github"></i></a>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
